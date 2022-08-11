@@ -1,0 +1,32 @@
+.footer{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 20px; 
+    margin: 30px auto;
+    position: relative;
+    background:#ddb7dd;
+    padding: 40px;
+}
+.footer__logo{
+    width: 60px;
+    height: auto;
+    margin-top: 30px;
+}
+.footer__logo-txt{
+    width: calc(100%-60px);
+    padding-left: 30px;
+}
+.footer__logo-txt span{
+    font-size: 18px;
+}
+.footer__fb{
+    width: 32px;
+    position: absolute;
+    margin: 40px 800px;
+}
+.footer__ins{
+    width: 30px;
+    position: absolute;
+    margin: 40px 850px;
+}

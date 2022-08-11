@@ -1,0 +1,109 @@
+.js-toggle {
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
+.js-toggle__head {
+  padding: 10px 20px;
+  position: relative;
+  border-bottom: 1px solid black;
+}
+
+.js-toggle__head::before {
+  content: "";
+  position: absolute;
+  width: 2px;
+  height: 10px;
+  background: black;
+  right: 30px;
+  top: 17px;
+}
+
+.js-toggle__head::after {
+  content: "";
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background: black;
+  right: 26px;
+  top: 21px;
+}
+
+.js-toggle__head:hover {
+  color: red;
+  cursor: pointer;
+  background: #f0c4c4;
+  border-color: red;
+}
+
+.js-toggle__body {
+  background: #f7f3f3;
+  padding: 30px 20px;
+}
+
+.js-toggle__body-txt {
+  margin-bottom: 20px;
+}
+
+.f-service {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.f-service__img {
+  margin-right: 30px;
+  width: 300px;
+}
+
+.f-service__body {
+  width: calc(100% - 300px);
+}
+
+.f-service__txt {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.f-service__txt-01 {
+  border: 1px solid black;
+  background: grey;
+  width: 135px;
+  text-align: center;
+  margin: auto;
+}
+
+.f-service__txt-02 {
+  margin-left: 30px;
+  width: calc(100% - 135px);
+}
+
+.f-btn {
+  border: 1px solid #a7a3a3;
+  border-radius: 6px;
+  background: #f4f7f4;
+  width: 230px;
+  text-align: center;
+  margin: auto;
+  padding: 8px;
+  position: relative;
+  cursor: pointer;
+}
+
+.f-btn__img {
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  position: absolute;
+  margin-left: 5px;
+}
+
+.f-btn:hover {
+  color: purple;
+  background: white;
+  border-color: purple;
+}
+/*# sourceMappingURL=toggle.css.map */
